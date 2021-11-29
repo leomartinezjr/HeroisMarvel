@@ -29,14 +29,18 @@ struct Hero: Codable {
     let name: String
     let description: String
     let thumbnail: Thumbnail
-    let url: [HeroURL]
+    let urls: [HeroURL]
 }
 
 struct Thumbnail: Codable {
     let path: String
     let ext: String
     
-    enum CodinKeys: String, CodingKey {
+    var url: String{
+        return path + "." + ext
+    }
+    
+    enum CodingKeys: String, CodingKey {
         case path
         case ext = "extension"
         

@@ -154,9 +154,9 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="ivThumb" destination="Aki-LY-asC" id="CoI-7D-NCS"/>
-                                    <outlet property="lbDescription" destination="L3s-sd-nOJ" id="zNu-np-iBe"/>
-                                    <outlet property="lbName" destination="sEf-mg-oq0" id="vSu-tI-i5s"/>
+                                    <outlet property="ivThumb" destination="Aki-LY-asC" id="uOi-L2-AXt"/>
+                                    <outlet property="lbDescription" destination="L3s-sd-nOJ" id="rj7-2b-QuB"/>
+                                    <outlet property="lbName" destination="sEf-mg-oq0" id="fGI-Zg-NQI"/>
                                     <segue destination="wbg-dF-UHh" kind="show" id="1JN-Yt-CJs"/>
                                 </connections>
                             </tableViewCell>
